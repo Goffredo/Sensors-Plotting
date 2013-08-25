@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/home/francesco/Programming/Libraries/jChart2D/jchart2d-3.2.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/francesco/Programming/Libraries/jChart2D/jchart2d-doc-3.2.1.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/USBTest"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
