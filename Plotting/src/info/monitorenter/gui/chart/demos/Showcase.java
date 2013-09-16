@@ -22,6 +22,7 @@
  */
 package info.monitorenter.gui.chart.demos;
 import info.monitorenter.gui.chart.Chart2D;
+import info.monitorenter.gui.chart.IRangePolicy;
 import info.monitorenter.gui.chart.controls.LayoutFactory;
 import info.monitorenter.gui.chart.events.Chart2DActionSaveImageSingleton;
 import info.monitorenter.gui.chart.io.ADataCollector;
@@ -392,9 +393,8 @@ extends JApplet {
 		this.setSize(new Dimension(600, 500));
 		this.m_chart.getAxisX().setPaintGrid(true);
 		this.m_chart.getAxisY().setPaintGrid(true);
-		chart.getAxisY().setRangePolicy(new RangePolicyMinimumViewport(new Range(-20, +20)));
 		chart.setGridColor(Color.LIGHT_GRAY);
-		this.setTrace(new Trace2DLtd(100000));
+		this.setTrace(new Trace2DLtd(5000));
 		this.getTrace().setName("random");
 		this.getTrace().setPhysicalUnits("Milliseconds", "random value");
 		this.getTrace().setColor(Color.RED);

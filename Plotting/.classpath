@@ -7,12 +7,17 @@
 			<attribute name="javadoc_location" value="jar:file:/home/francesco/Programming/Libraries/jChart2D/jchart2d-doc-3.2.1.zip!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/usr/share/java/commons-collections/commons-collections.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://commons.apache.org/proper/commons-collections/javadocs/api-3.2.1/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/USBTest"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/SerialToDCM"/>
 	<classpathentry kind="lib" path="/usr/share/java/jme/lib/jME3-core.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="http://jmonkeyengine.org/javadoc/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/SerialToDCM"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
